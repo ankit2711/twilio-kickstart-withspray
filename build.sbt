@@ -14,11 +14,14 @@ libraryDependencies ++= {
     "io.spray"            %%  "spray-http"    % sprayV,
     "io.spray"            %%  "spray-json"    % sprayV,
     "io.spray"            %%  "spray-routing" % sprayV,
+    "io.spray"            %%  "spray-json"    % "1.3.2",
     "io.spray"            %%  "spray-testkit" % sprayV  % "test",
     "com.typesafe.akka"   %%  "akka-actor"    % akkaV,
     "com.typesafe.akka"   %%  "akka-testkit"  % akkaV   % "test",
     "org.specs2"          %%  "specs2-core"   % "2.3.11" % "test",
-    "com.twilio.sdk"       %  "twilio-java-sdk" % "3.4.5"
+    "com.twilio.sdk" % "twilio-java-sdk" % "6.0.1-edge",
+    "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0",
+    "org.apache.commons" % "commons-lang3" % "3.4"
   )
 }
 
