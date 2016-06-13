@@ -7,7 +7,7 @@ import com.twilio.sdk.auth.IpMessagingGrant;
   */
 object CreateVideoToken {
 
-  val myGrant = new IpMessagingGrant();
+  val aGrant = new IpMessagingGrant();
 //  grant.setEndpointId(endpointId);
 //  grant.setServiceSid(env.get("TWILIO_IPM_SERVICE_SID"));
 
